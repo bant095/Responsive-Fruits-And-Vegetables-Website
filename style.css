@@ -107,6 +107,33 @@
 #menu-icon {
     font-size: 24px;
     cursor: pointer;
-    z-index: 10001;
+    z-index: 1001;
     display: none;
+}
+
+/* container */
+.container {
+    position: relative;
+    width: 100%;
+    min-height: 640px;
+    display: flex;
+    align-items: center;
+    /* background: url(./Images/SL-120722-54440-10.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    opacity: 0.5px;
+}
+
+.container img {
+    width: 400px; 
+    position: absolute;  
+    bottom: -500px;
+    right: 200px;
+   
+}
+
+.home-text {
+    padding: 0 150px;
 }
