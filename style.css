@@ -610,7 +610,6 @@ color: var(--light-orange-color);
  @media (max-width: 991px)  {
     header {
         padding: 18px 4%;
-        background-color: red;
     }
 
     .home-text {
@@ -732,7 +731,6 @@ color: var(--light-orange-color);
       right: 0;
       width: 370px;
    }
-
 }
 
 @media (max-width: 546px) {
@@ -745,13 +743,6 @@ color: var(--light-orange-color);
 }
 
 /* 482px */
-
-@media (max-width: 482px){
-   header {
-      
-      padding: 0 20px;
-   }
-}
 
 @media (max-width: 370px) {
    .logo {
