@@ -388,3 +388,29 @@ color: var(--light-orange-color);
     padding: 4px 18px;
     clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 0 100%, 0% 50%, 0 0);
  }
+
+ /* ABOUT SECTION */
+
+ .about {
+    max-width: 968px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(21rem, auto));
+    align-items: center;
+    gap: 1.5rem;
+ }
+
+ .about img {
+    width: 300px;
+ }
+
+ .about-text span {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--green-color);
+ }
+
+ .about-text p {
+    margin: 0.5rem 0 1rem;
+ }
